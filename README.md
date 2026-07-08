@@ -2,7 +2,7 @@
 
 **Application indépendante · Non affiliée au MIFI ni au gouvernement du Québec**
 
-*Dernière mise à jour : 1er juillet 2026*
+*Dernière mise à jour : 7 juillet 2026*
 
 ---
 
@@ -16,7 +16,9 @@ CSQ Tracker est une application indépendante développée par un particulier po
 
 Cette application n'a aucun lien avec le **Ministère de l'Immigration, de la Francisation et de l'Intégration (MIFI)**, le gouvernement du Québec, ni aucune autorité gouvernementale canadienne ou québécoise.
 
-Contact : [csqtracker@gmail.com](mailto:csqtracker@gmail.com)
+**Responsable de la protection des renseignements personnels :**
+Kayssé Rachid — [kaysse.rachid@outlook.fr](mailto:kaysse.rachid@outlook.fr)
+Support application : [csqtracker@gmail.com](mailto:csqtracker@gmail.com)
 
 ---
 
@@ -57,9 +59,33 @@ Nous n'avons accès qu'à votre adresse courriel et à un identifiant unique ano
 
 ---
 
+## 🌍 Transfert de renseignements personnels hors Québec
+
+Conformément à la *Loi sur la protection des renseignements personnels dans le secteur privé* (Loi 25), nous vous informons que vos renseignements personnels sont communiqués à des organisations situées à l'extérieur du Québec :
+
+| Service | Fournisseur | Localisation |
+|---|---|---|
+| Authentification | Firebase Authentication (Google LLC) | États-Unis |
+| Base de données & API | Railway (Railway Corp.) | États-Unis |
+
+Avant ces transferts, nous nous assurons que la protection accordée à ces renseignements est comparable à celle qu'exige la loi québécoise, notamment par l'encadrement contractuel offert par les conditions d'utilisation de Firebase et de Railway.
+
+- [Politique de confidentialité de Google / Firebase](https://policies.google.com/privacy)
+- [Politique de confidentialité de Railway](https://railway.app/legal/privacy)
+
+---
+
 ## 🗂️ Conservation des données
 
-Vos données sont conservées aussi longtemps que votre compte est actif. Vous pouvez demander la suppression de toutes vos données à tout moment en nous contactant à [csqtracker@gmail.com](mailto:csqtracker@gmail.com). Nous procéderons à la suppression dans un délai de 30 jours.
+Vos données sont conservées aussi longtemps que votre compte est actif, selon les durées suivantes :
+
+| Type de données | Durée de conservation |
+|---|---|
+| Données d'authentification (courriel, identifiant) | Durée de vie du compte |
+| Timelines (dates, programme, CNP) | Durée de vie du compte |
+| Statistiques agrégées anonymisées | Indéfiniment (aucune donnée personnelle) |
+
+Vous pouvez demander la suppression de toutes vos données à tout moment en nous contactant à [kaysse.rachid@outlook.fr](mailto:kaysse.rachid@outlook.fr). Nous procéderons à la suppression dans un délai de **30 jours**. Les données agrégées anonymisées, ne permettant pas d'identifier un individu, peuvent être conservées à des fins statistiques.
 
 ---
 
@@ -67,18 +93,28 @@ Vos données sont conservées aussi longtemps que votre compte est actif. Vous p
 
 Vos données sont transmises via des connexions chiffrées (HTTPS) et stockées sur des serveurs sécurisés. L'accès à vos timelines est protégé par votre authentification Firebase : seul vous pouvez accéder à vos propres données.
 
+En cas d'incident de confidentialité présentant un risque de préjudice sérieux, nous nous engageons à en aviser la **Commission d'accès à l'information (CAI)** du Québec ainsi que les personnes concernées, dans les délais prescrits par la loi. Un registre des incidents de confidentialité est tenu à jour conformément à la Loi 25.
+
 ---
 
 ## ⚖️ Vos droits
 
-Vous disposez des droits suivants sur vos données :
+En vertu de la *Loi sur la protection des renseignements personnels dans le secteur privé* (Loi 25), vous disposez des droits suivants :
 
-- **Accès :** consulter les données que nous détenons sur vous.
-- **Rectification :** corriger des données inexactes directement dans l'application.
-- **Suppression :** demander l'effacement de toutes vos données.
-- **Portabilité :** obtenir une copie de vos données dans un format lisible.
+- **Accès :** consulter les renseignements personnels que nous détenons sur vous.
+- **Rectification :** corriger des données inexactes directement dans l'application ou en nous contactant.
+- **Suppression :** demander l'effacement de tous vos renseignements personnels.
+- **Portabilité :** obtenir une copie de vos données dans un format technologique structuré et couramment utilisé.
+- **Retrait du consentement :** retirer votre consentement au traitement de vos données en tout temps, sous réserve des délais légaux de conservation.
 
-Pour exercer ces droits, contactez : [csqtracker@gmail.com](mailto:csqtracker@gmail.com)
+Pour exercer ces droits, contactez le responsable de la protection des renseignements personnels :
+
+**Kayssé Rachid**
+[kaysse.rachid@outlook.fr](mailto:kaysse.rachid@outlook.fr)
+
+Nous répondrons à votre demande dans un délai de **30 jours**.
+
+Vous avez également le droit de déposer une plainte auprès de la **Commission d'accès à l'information (CAI)** du Québec : [www.cai.gouv.qc.ca](https://www.cai.gouv.qc.ca)
 
 ---
 
@@ -88,5 +124,5 @@ Nous pouvons mettre à jour cette politique de confidentialité. En cas de modif
 
 ---
 
-*CSQ Tracker — Application non officielle, non affiliée au MIFI ni au gouvernement du Québec.*  
+*CSQ Tracker — Application non officielle, non affiliée au MIFI ni au gouvernement du Québec.*
 *© 2026 CSQ Tracker. Tous droits réservés.*
